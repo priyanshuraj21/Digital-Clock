@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+  
+  
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   padding: 210px;
+   background-image: url(desktop-wallpaper-black-gradient-dark-blue-gradient-background.jpg);
+ 
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+.container h1{
+    margin-top: 15px;
+    font-size: 50px;
+    color: black;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 15px;
+    
+    margin-bottom: 10px;
+    color: black;
+    font-size: 60px;
+    padding-left: 16px;
+    padding-top: 15px;
+
+
+}
+.box:hover{
+    transform: scale(1.2);
+   transition-duration: 3s;
+}
+
+#hrs {
+    background-image: linear-gradient(to right,rgb(236, 173, 56),orange);
+}
+
+#min {
+    background-image: linear-gradient(to right,white,rgb(21, 6, 67));
+
+}
+
+#sec {
+    background-image: linear-gradient(to right,green,rgb(96, 215, 96));
+
+}
+
+.date {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    gap: 30px;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.date:hover{
+    transform: scale(1.2);
+   transition-duration: 3s;
+   background-image: linear-gradient(to right, orange,white,green);
+}
+
+.date-box{
+    margin-top: 5px;
+}
+
+#din{
+font-size: 50px;
+color: white;
+}
+
+.name{
+    display: flex;
+    gap: 110px;
+    color: black;
+    margin-top: -30px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 150px;
+    
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  
+ 
+}
+#btn1{
+    background-image: url(360_F_572546714_2mn39TUv2f5Lmg7JRT9yvSkuTJERGyg8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn2{
+    background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn3{
+    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn4{
+    background-image: url(pexels-craig-adderley-1563356.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn5{
+    background-image: url(Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#btn6{
+    background-image: url(istockphoto-1341408852-640x640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg1{
+    background-image: url(360_F_572546714_2mn39TUv2f5Lmg7JRT9yvSkuTJERGyg8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg2{
+    background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg3{
+    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg4{
+    background-image: url(pexels-craig-adderley-1563356.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg5{
+    background-image: url(Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg6{
+    background-image: url(istockphoto-1341408852-640x640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
